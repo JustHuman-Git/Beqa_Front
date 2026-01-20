@@ -162,8 +162,48 @@ nav{
     color: #5a5a5a;
     font-size: 13px;
 }
-.publisher{
+.publisher button{
     background: red;
     color: #fff;
     padding: 8px 30px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+}
+
+
+/* - */
+
+.vid-description{
+    padding-left: 70px;
+    margin: 15px 0;
+}
+.vid-description p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
+.vid-description h4{
+    font-size: 14px;
+    color: #332e2e;
+    margin-top: 15px;
+}
+
+.add-comment{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.add-comment img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.add-comment input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-top: 10px;
+    background: transparent;
 }
