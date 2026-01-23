@@ -136,6 +136,9 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.large-container{
+    padding-left: 7%;
+}
 .banner{
     width: 100%;
 }
@@ -175,6 +178,26 @@ nav{
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
+}
+
+@media (max-width: 900px){
+    .menu-icon{
+        display:none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container , .large-container{
+        padding-left: 5%;
+        paddinf-right: 5%;
+    }
+    .nav-right img{
+        display: none;
+    }
+    .nav-right .user-icon{
+        display: block;
+        width: 30px;
+    }
 }
 
 /* -------second HTML------------------------------------------------------------- */
